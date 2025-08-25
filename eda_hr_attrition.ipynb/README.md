@@ -6,7 +6,7 @@ Questo progetto ha esaminato i tassi di abbandono dei dipendenti e i fattori che
 
 ---
 
-## 🎯 Purpose of the Project / Obiettivo del Progetto
+## Purpose of the Project / Obiettivo del Progetto
 
 - Analyze employee attrition rates.  
 - Discover factors affecting turnover rates (age, department, overtime, etc.).  
@@ -20,7 +20,7 @@ Questo progetto ha esaminato i tassi di abbandono dei dipendenti e i fattori che
 
 ---
 
-## 🛠️ Programs and Extensions Used / Programmi ed Estensioni Utilizzati
+## Programs and Extensions Used / Programmi ed Estensioni Utilizzati
 
 - **Python**: For data analysis and modeling.  
 - **Pandas** and **NumPy**: Data manipulation.  
@@ -36,7 +36,7 @@ Questo progetto ha esaminato i tassi di abbandono dei dipendenti e i fattori che
 
 ---
 
-## 📊 Data Set
+## Data Set
 
 **Data source link**: [IBM HR Analytics Attrition Dataset - Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
@@ -46,7 +46,7 @@ Il progetto è stato realizzato utilizzando il set di dati **IBM HR Analytics At
 
 ---
 
-## 🔍 Analysis / Analisi
+## Analysis / Analisi
 
 - **Exploratory Data Analysis (EDA)**: Examining the overall structure and relationships of data.  
 - **Machine Learning Models**: Decision trees and regression models for predicting employee attrition risk.  
@@ -66,7 +66,7 @@ Il progetto è stato realizzato utilizzando il set di dati **IBM HR Analytics At
 
 ---
 
-## 📑 Results & Analysis / Risultati e Analisi
+## Results & Analysis / Risultati e Analisi
 
 For a detailed discussion of the analysis and results, please refer to the [Results Analysis](results.md) document.  
 Per una discussione dettagliata dell'analisi e dei risultati, fare riferimento al documento [Risultati e Analisi](results.md).
@@ -80,7 +80,43 @@ Per una discussione dettagliata dell'analisi e dei risultati, fare riferimento a
 
 ---
 
-## 🔐 Ethics and Data Privacy / Etica e Privacy dei Dati
+###  Attrition by Gender (Power BI)
+
+![Attrition by Gender - Power BI](plots/powerbi_plots/attrition_by_gender.png)
+
+**EN**: Female attrition: **14.80%**, Male attrition: **17.01%**  
+→ Male employees show a slightly higher turnover rate.
+
+**IT**: Abbandono tra le donne: **14,80%**, tra gli uomini: **17,01%**  
+→ I dipendenti di sesso maschile mostrano un tasso di abbandono leggermente più alto.
+
+
+###  Attrition by Business Travel (Power BI)
+
+![Attrition by Business Travel - Power BI](plots/powerbi_plots/attrition_by_travel.png)
+
+**EN**: Employees who travel frequently have the highest attrition rate (**24.91%**),  
+while those who never travel show the lowest (**0.8%**).  
+→ Frequent travel may lead to fatigue and higher turnover.
+
+**IT**: I dipendenti che viaggiano frequentemente hanno il tasso di abbandono più alto (**24,91%**),  
+mentre chi non viaggia quasi mai mostra il più basso (**0,8%**).  
+→ I viaggi frequenti possono causare stress e aumentare l’abbandono.
+
+
+### Attrition by Monthly Income (Power BI)
+
+![Attrition by Monthly Income - Power BI](plots/powerbi_plots/attrition_by_income_age.png)
+
+**EN**: Employees who left earned on average **4.8K**, while retained employees earned **6.8K**.  
+→ Lower income levels are linked to higher attrition risk.
+
+**IT**: I dipendenti che hanno lasciato l'azienda guadagnavano in media **4.8K**,  
+mentre quelli rimasti guadagnavano **6.8K**.  
+→ Un reddito più basso è associato a un rischio maggiore di abbandono.
+
+---
+## Ethics and Data Privacy / Etica e Privacy dei Dati
 
 The data used in this project includes anonymized employee information. Confidentiality and security of data are prioritized.  
 /  

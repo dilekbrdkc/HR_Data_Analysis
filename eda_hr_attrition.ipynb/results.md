@@ -1,9 +1,9 @@
-# 📊 Results & Analysis / Risultati e Analisi
+# Results & Analysis / Risultati e Analisi
 
 > This file presents detailed analysis results and model evaluations for the HR attrition prediction project.
 
 
-## 🔍 Key Findings / Risultati Chiave
+## Key Findings / Risultati Chiave
 
 - **Employee Attrition**: Age and job satisfaction emerged as key factors. Employees aged **30–40** with **low job satisfaction** showed a higher risk of attrition.  
   - **Abbandono dei dipendenti**: L’età e la soddisfazione lavorativa sono risultati fattori chiave. I dipendenti tra i **30 e i 40 anni** con **bassa soddisfazione lavorativa** mostrano un rischio maggiore di abbandono.
@@ -35,8 +35,7 @@ Abbiamo esaminato i tassi di abbandono per età, reparto, straordinari, ruolo, e
 ---
 
 
-## 🔍 Demographic & Behavioral Insights from Power BI  
-## 🔍 Approfondimenti Demografici e Comportamentali da Power BI
+## 2.Demographic & Behavioral Insights from Power BI  / Approfondimenti Demografici e Comportamentali da Power BI
 
 These insights were derived using Power BI visualizations.  
 Queste informazioni sono state ottenute utilizzando visualizzazioni in Power BI.
@@ -80,9 +79,156 @@ Queste informazioni sono state ottenute utilizzando visualizzazioni in Power BI.
 
 --- 
 
-## 2. Machine Learning Models / Modelli di Apprendimento Automatico
+## 3. Power BI Visualizations
 
-### 2.1 Without SMOTE / Senza SMOTE
+> Below are key visualizations created using Power BI for the HR Attrition dataset.  
+> Di seguito sono riportate le principali visualizzazioni create con Power BI per il dataset di abbandono HR.
+
+<details>
+<summary><strong>Click to expand / Clicca per espandere</strong></summary>
+
+###  General Attrition Trends
+
+![Gender](plots/powerbi_plots/attrition_by_gender.png)  
+![Income & Age](plots/powerbi_plots/attrition_by_income_age.png)  
+![Business Travel](plots/powerbi_plots/travel_rate_envirement_satisfaction.png)  
+![Environment Satisfaction](plots/powerbi_plots/travel_rate_envirement_satisfaction.png)
+
+###  Department & Role Analysis
+
+![By Department](plots/powerbi_plots/attrition_by_department.png)  
+![By Job Role](plots/powerbi_plots/attrition_by_job_role_kpı.png)
+
+###  Job Satisfaction & Overtime
+
+![Overtime](plots/powerbi_plots/heatmap_overtime.png)  
+![Job Satisfaction](plots/powerbi_plots/overtime_by_job_satisfaction.png)
+
+</details>
+
+---
+
+## 4. Python Visualizations
+
+> Visualizations created using Python libraries like Seaborn and Matplotlib.  
+> Visualizzazioni create utilizzando librerie Python come Seaborn e Matplotlib.
+
+<details>
+<summary><strong>Click to expand / Clicca per espandere</strong></summary>
+
+###  Decision Tree
+
+![Decision Tree](plots/python_plots/decision_tree.png)  
+*Decision tree visualization used for attrition prediction.*  
+*Visualizzazione dell'albero decisionale usata per la previsione dell'abbandono.*
+
+###  Turnover Rate by Department
+
+![Turnover Rate by Department](plots/python_plots/turnover_rate_by_department.png)  
+*Attrition rates across different departments.*  
+*Tassi di abbandono nei vari reparti.*
+
+###  General Overview Plots
+
+![General 1](plots/python_plots/general1.png)  
+![General 2](plots/python_plots/general2.png)  
+![General 3](plots/python_plots/genaral3.png)  
+![General 4](plots/python_plots/general4.png)  
+*General exploratory data analysis plots.*  
+*Grafici generali di analisi esplorativa dei dati.*
+
+###  Attrition Distribution
+
+![Attrition Distribution](plots/python_plots/attrition_distribution.png)  
+*Distribution of attrition cases.*  
+*Distribuzione dei casi di abbandono.*
+
+###  Travel Distribution
+
+![Travel Distribution](plots/python_plots/travel_distribution.png)  
+*Employee distribution by business travel frequency.*  
+*Distribuzione dei dipendenti in base alla frequenza dei viaggi di lavoro.*
+
+###  Education Level
+
+![Education](plots/python_plots/education.png)  
+*Attrition analysis by education level.*  
+*Analisi dell'abbandono per livello di istruzione.*
+
+###  Job Role
+
+![Job Role](plots/python_plots/job_role.png)  
+*Attrition by job role.*  
+*Abbandono per ruolo lavorativo.*
+
+###  Overtime
+
+![Overtime](plots/python_plots/overtime.png)  
+*Impact of overtime on attrition.*  
+*Impatto degli straordinari sull'abbandono.*
+
+###  Marital Status
+
+![Marital Status](plots/python_plots/maritalstatus.png)  
+*Attrition by marital status.*  
+*Abbandono in base allo stato civile.*
+
+###  Age
+
+![Attrition by Age](plots/python_plots/attrition_age.png)  
+*Attrition rates across age groups.*  
+*Tassi di abbandono per fasce d'età.*
+
+###  Monthly Income
+
+![Attrition by Monthly Income](plots/python_plots/attrition_monthly_income.png)  
+*Attrition in relation to monthly income.*  
+*Abbandono in relazione al reddito mensile.*
+
+###  Distance from Home
+
+![Attrition by Distance from Home](plots/python_plots/attrition_distance_home.png)  
+*Effect of distance from home on attrition.*  
+*Effetto della distanza da casa sull'abbandono.*
+
+###  Job Satisfaction
+
+![Attrition by Job Satisfaction](plots/python_plots/attrition_job_satisfaction.png)  
+*Attrition based on job satisfaction levels.*  
+*Abbandono basato sui livelli di soddisfazione lavorativa.*
+
+###  Years at Company
+
+![Attrition by Years at Company](plots/python_plots/attrition_years_at_company.png)  
+*Attrition by tenure at the company.*  
+*Abbandono in base agli anni di servizio.*
+
+###  Business Travel
+
+![Attrition by Travel](plots/python_plots/attrition_travel.png)  
+*Attrition by business travel frequency.*  
+*Abbandono in base alla frequenza dei viaggi di lavoro.*
+
+###  Correlation Matrix
+
+![Correlation Matrix](plots/python_plots/correlation_matrix.png)  
+*Correlation heatmap of features.*  
+*Heatmap di correlazione delle variabili.*
+
+</details>
+
+---
+
+
+## Notes
+
+- You can always reorganize or remove visualizations as needed.  
+- Make sure all file names and paths match exactly with what’s in your repository folders.
+
+
+## 5. Machine Learning Models / Modelli di Apprendimento Automatico
+
+### 5.1 Without SMOTE / Senza SMOTE
 
 | Model               | Accuracy | Precision (Attrition) | Recall (Attrition) | F1 Score (Attrition) |
 |---------------------|----------|------------------------|--------------------|----------------------|
@@ -95,7 +241,7 @@ Queste informazioni sono state ottenute utilizzando visualizzazioni in Power BI.
 
 ---
 
-### 2.2 With SMOTE / Con SMOTE
+### 5.2 With SMOTE / Con SMOTE
 
 After applying SMOTE to balance the class distribution:
 
@@ -110,7 +256,7 @@ After applying SMOTE to balance the class distribution:
 
 ---
 
-## 3. Discussion / Discussione
+## 6. Discussion / Discussione
 
 - SMOTE successfully addressed class imbalance, improving model sensitivity to attrition.
 - Logistic Regression with SMOTE showed the **best recall (44%)**, making it suitable for identifying potential leavers.
@@ -122,7 +268,7 @@ After applying SMOTE to balance the class distribution:
 
 ---
 
-## 4. Limitations and Future Work / Limitazioni e Lavori Futuri
+## 7. Limitations and Future Work / Limitazioni e Lavori Futuri
 
 - The dataset only covers IBM employees; generalizability to other organizations is uncertain.
 - Only basic ML models (Decision Tree, Logistic Regression) were used.  
