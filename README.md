@@ -157,20 +157,20 @@ Queste informazioni sono state ottenute utilizzando visualizzazioni in Power BI.
 
 ###  General Attrition Trends
 
-![Gender](plots/powerbi_plots/attrition_by_gender.png)  
-![Income & Age](plots/powerbi_plots/attrition_by_income_age.png)  
-![Business Travel](plots/powerbi_plots/travel_rate_envirement_satisfaction.png)  
-![Environment Satisfaction](plots/powerbi_plots/travel_rate_envirement_satisfaction.png)
+![Gender](eda_hr_attrition.ipynb/plots/powerbi_plots/attrition_by_gender.png)  
+![Income & Age](eda_hr_attrition.ipynb/plots/powerbi_plots/attrition_by_income_age.png)  
+![Business Travel](eda_hr_attrition.ipynb/plots/powerbi_plots/travel_rate_envirement_satisfaction.png)  
+![Environment Satisfaction](eda_hr_attrition.ipynb/plots/powerbi_plots/travel_rate_envirement_satisfaction.png)
 
 ###  Department & Role Analysis
 
-![By Department](plots/powerbi_plots/attrition_by_department.png)  
-![By Job Role](plots/powerbi_plots/attrition_by_job_role_kpı.png)
+![By Department](eda_hr_attrition.ipynb/plots/powerbi_plots/attrition_by_department.png)  
+![By Job Role](eda_hr_attrition.ipynb/plots/powerbi_plots/powerbi_plots/attrition_by_job_role_kpı.png)
 
 ###  Job Satisfaction & Overtime
 
-![Overtime](plots/powerbi_plots/heatmap_overtime.png)  
-![Job Satisfaction](plots/powerbi_plots/overtime_by_job_satisfaction.png)
+![Overtime](eda_hr_attrition.ipynb/plots/powerbi_plots/heatmap_overtime.png)  
+![Job Satisfaction](eda_hr_attrition.ipynb/plots/powerbi_plots/overtime_by_job_satisfaction.png)
 
 </details>
 
@@ -186,100 +186,100 @@ Queste informazioni sono state ottenute utilizzando visualizzazioni in Power BI.
 
 ###  Decision Tree
 
-![Decision Tree](plots/python_plots/decision_tree.png)  
+![Decision Tree](eda_hr_attrition.ipynb/plots/python_plots/decision_tree.png)  
 *Decision tree visualization used for attrition prediction.*  
 *Visualizzazione dell'albero decisionale usata per la previsione dell'abbandono.*
 
 ###  Turnover Rate by Department
 
-![Turnover Rate by Department](plots/python_plots/turnover_rate_by_department.png)  
+![Turnover Rate by Department](eda_hr_attrition.ipynb/plots/python_plots/turnover_rate_by_department.png)  
 *Attrition rates across different departments.*  
 *Tassi di abbandono nei vari reparti.*
 
 ###  General Overview Plots
 
-![General 1](plots/python_plots/general1.png)  
-![General 2](plots/python_plots/general2.png)  
-![General 3](plots/python_plots/genaral3.png)  
-![General 4](plots/python_plots/general4.png)  
+![General 1](eda_hr_attrition.ipynb/plots/python_plots/general1.png)  
+![General 2](eda_hr_attrition.ipynb/plots/python_plots/general2.png)  
+![General 3](eda_hr_attrition.ipynb/plots/python_plots/genaral3.png)  
+![General 4](eda_hr_attrition.ipynb/plots/python_plots/general4.png)  
 *General exploratory data analysis plots.*  
 *Grafici generali di analisi esplorativa dei dati.*
 
 ###  Attrition Distribution
 
-![Attrition Distribution](plots/python_plots/attrition_distribution.png)  
+![Attrition Distribution](eda_hr_attrition.ipynb/plots/python_plots/attrition_distribution.png)  
 *Distribution of attrition cases.*  
 *Distribuzione dei casi di abbandono.*
 
 ###  Travel Distribution
 
-![Travel Distribution](plots/python_plots/travel_distribution.png)  
+![Travel Distribution](eda_hr_attrition.ipynb/plots/python_plots/travel_distribution.png)  
 *Employee distribution by business travel frequency.*  
 *Distribuzione dei dipendenti in base alla frequenza dei viaggi di lavoro.*
 
 ###  Education Level
 
-![Education](plots/python_plots/education.png)  
+![Education](eda_hr_attrition.ipynb/plots/python_plots/education.png)  
 *Attrition analysis by education level.*  
 *Analisi dell'abbandono per livello di istruzione.*
 
 ###  Job Role
 
-![Job Role](plots/python_plots/job_role.png)  
+![Job Role](eda_hr_attrition.ipynb/plots/python_plots/job_role.png)  
 *Attrition by job role.*  
 *Abbandono per ruolo lavorativo.*
 
 ###  Overtime
 
-![Overtime](plots/python_plots/overtime.png)  
+![Overtime](eda_hr_attrition.ipynb/plots/python_plots/overtime.png)  
 *Impact of overtime on attrition.*  
 *Impatto degli straordinari sull'abbandono.*
 
 ###  Marital Status
 
-![Marital Status](plots/python_plots/maritalstatus.png)  
+![Marital Status](eda_hr_attrition.ipynb/plots/python_plots/maritalstatus.png)  
 *Attrition by marital status.*  
 *Abbandono in base allo stato civile.*
 
 ###  Age
 
-![Attrition by Age](plots/python_plots/attrition_age.png)  
+![Attrition by Age](eda_hr_attrition.ipynb/plots/python_plots/attrition_age.png)  
 *Attrition rates across age groups.*  
 *Tassi di abbandono per fasce d'età.*
 
 ###  Monthly Income
 
-![Attrition by Monthly Income](plots/python_plots/attrition_monthly_income.png)  
+![Attrition by Monthly Income](eda_hr_attrition.ipynb/plots/python_plots/attrition_monthly_income.png)  
 *Attrition in relation to monthly income.*  
 *Abbandono in relazione al reddito mensile.*
 
 ###  Distance from Home
 
-![Attrition by Distance from Home](plots/python_plots/attrition_distance_home.png)  
+![Attrition by Distance from Home](eda_hr_attrition.ipynb/plots/python_plots/attrition_distance_home.png)  
 *Effect of distance from home on attrition.*  
 *Effetto della distanza da casa sull'abbandono.*
 
 ###  Job Satisfaction
 
-![Attrition by Job Satisfaction](plots/python_plots/attrition_job_satisfaction.png)  
+![Attrition by Job Satisfaction](eda_hr_attrition.ipynb/plots/python_plots/attrition_job_satisfaction.png)  
 *Attrition based on job satisfaction levels.*  
 *Abbandono basato sui livelli di soddisfazione lavorativa.*
 
 ###  Years at Company
 
-![Attrition by Years at Company](plots/python_plots/attrition_years_at_company.png)  
+![Attrition by Years at Company](eda_hr_attrition.ipynb/plots/python_plots/attrition_years_at_company.png)  
 *Attrition by tenure at the company.*  
 *Abbandono in base agli anni di servizio.*
 
 ###  Business Travel
 
-![Attrition by Travel](plots/python_plots/attrition_travel.png)  
+![Attrition by Travel](eda_hr_attrition.ipynb/plots/python_plots/attrition_travel.png)  
 *Attrition by business travel frequency.*  
 *Abbandono in base alla frequenza dei viaggi di lavoro.*
 
 ###  Correlation Matrix
 
-![Correlation Matrix](plots/python_plots/correlation_matrix.png)  
+![Correlation Matrix](eda_hr_attrition.ipynb/plots/python_plots/correlation_matrix.png)  
 *Correlation heatmap of features.*  
 *Heatmap di correlazione delle variabili.*
 
