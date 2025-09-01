@@ -165,7 +165,7 @@ Queste informazioni sono state ottenute utilizzando visualizzazioni in Power BI.
 ###  Department & Role Analysis
 
 ![By Department](eda_hr_attrition.ipynb/plots/powerbi_plots/attrition_by_department.png)  
-![By Job Role](eda_hr_attrition.ipynb/plots/powerbi_plots/powerbi_plots/attrition_by_job_role_kpı.png)
+![By Job Role](eda_hr_attrition.ipynb/plots/powerbi_plots/attrition_by_job_role_kpı.png)
 
 ###  Job Satisfaction & Overtime
 
@@ -201,13 +201,13 @@ Queste informazioni sono state ottenute utilizzando visualizzazioni in Power BI.
 ![General 1](eda_hr_attrition.ipynb/plots/python_plots/general1.png)  
 ![General 2](eda_hr_attrition.ipynb/plots/python_plots/general2.png)  
 ![General 3](eda_hr_attrition.ipynb/plots/python_plots/general_3.png)  
-![General 4](eda_hr_attrition.ipynb/plots/python_plots/general4.png)  
+![General 4](eda_hr_attrition.ipynb/plots/python_plots/general_4.png)  
 *General exploratory data analysis plots.*  
 *Grafici generali di analisi esplorativa dei dati.*
 
 ###  Attrition Distribution
 
-![Attrition Distribution](eda_hr_attrition.ipynb/plots/python_plots/attrition_distribution.png)  
+![Attrition Distribution](eda_hr_attrition.ipynb/plots/python_plots/attrition_distrubution.png)  
 *Distribution of attrition cases.*  
 *Distribuzione dei casi di abbandono.*
 
